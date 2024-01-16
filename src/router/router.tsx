@@ -5,6 +5,7 @@ import {
 import Wrapper from "../pages/Wrapper";
 import Dashboard from "../pages/Dashboard";
 import Cameras from "../pages/Cameras";
+import Detections from "../pages/Detections";
   
   export const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ import Cameras from "../pages/Cameras";
             path: "live-cams",
             element: <Cameras/>,
             },
+            {
+              path: "detections",
+              element: <Detections/>,
+            }
 
         ]
     }

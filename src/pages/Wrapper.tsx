@@ -13,7 +13,7 @@ function Wrapper() {
         <Flex justifyContent='space-between' alignItems='center'>
           <Heading mb='9'>Bienvenido de nuevo 👋</Heading>
         </Flex>
-        <TabNavigation tabs={[{path : "/", label : "Métricas"},{path : "/live-cams", label : "Cámaras"} ]}></TabNavigation>
+        <TabNavigation tabs={[{path : "/", label : "Métricas"},{path : "/live-cams", label : "Cámaras"}, {path : "/detections", label: "Historial de detecciones"} ]}></TabNavigation>
         <Outlet/>
       </Container>
       </Box>
